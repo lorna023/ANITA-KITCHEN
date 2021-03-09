@@ -1,5 +1,5 @@
 .header-section{
-    background-image: url(../Images/landing.jpg);
+    background-image: url(Images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -61,7 +61,7 @@
     line-height: 105px;
   }
   #marketing-breakfast {
-    background-image: url(../Images/breakfast.jpg);
+    background-image: url(Images/breakfast.jpg);
     background-size: cover;
     color: white;
     font-style: italic;
@@ -72,7 +72,7 @@
     line-height: 210px;
   }
   #marketing-lunch {
-    background-image: url(../Images/lunch.jpg);
+    background-image: url(Images/lunch.jpg);
     background-size: cover;
     color: white;
     font-style: italic;
@@ -83,7 +83,7 @@
     line-height: 210px;
   }
   #marketing-dinner {
-    background-image: url(../Images/dinner.jpg);
+    background-image: url(Images/dinner.jpg);
     background-size: cover;
     color: white;
     font-style: italic;
@@ -94,7 +94,7 @@
     line-height: 210px;
   }
   #marketing-dinner:hover {
-    background-image: url(../Images/dinner2.jpg);
+    background-image: url(Images/dinner2.jpg);
     background-size: cover;
   }
   /* Another section */
@@ -212,7 +212,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../Images/foodsBg.jpg);
+    background-image: url(Images/foodsBg.jpg);
     background-repeat: no-repeat;
     margin-top: 150px;
     background-size: cover;
