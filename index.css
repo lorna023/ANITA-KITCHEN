@@ -1,0 +1,328 @@
+.header-section{
+    background-image: url(../Images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.logo-image{
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 100px;
+}
+.intro-phrase{
+    font-size: 3.3em;
+  text-align: center;
+  color: white;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  margin-bottom: auto;
+}
+/* another section */
+.marketing-split-words {
+    display: flex;
+    flex-direction: row;
+    height: 210px;
+    width: 100%;
+  }
+  .happy {
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .marketing {
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+  }
+  #happy {
+    color: black;
+    font-size: 25px;
+    height: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 105px;
+  }
+  #party {
+    color: white;
+    font-size: 25px;
+    height: 50%;
+    background-color: #F15A29;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 105px;
+  }
+  #marketing-breakfast {
+    background-image: url(../Images/breakfast.jpg);
+    background-size: cover;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    width: 33.33%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 210px;
+  }
+  #marketing-lunch {
+    background-image: url(../Images/lunch.jpg);
+    background-size: cover;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    width: 33.33%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 210px;
+  }
+  #marketing-dinner {
+    background-image: url(../Images/dinner.jpg);
+    background-size: cover;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    width: 33.33%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 210px;
+  }
+  #marketing-dinner:hover {
+    background-image: url(../Images/dinner2.jpg);
+    background-size: cover;
+  }
+  /* Another section */
+.food-show {
+    margin: auto;
+    width: 80%;
+    padding: 10% 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+  }
+  .food-show-images {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    border: white solid 1px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin: 0 70px 0 0;
+  }
+  .food-show-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .food-show-heading {
+    margin: 15px 0 15px 0;
+  }
+  #food-show-image-one {
+    padding: 20px 20px 0 20px;
+  }
+  #food-show-image-two {
+    padding: 0 20px 20px 20px;
+  }
+  #heading {
+    font-size: 50px;
+    color: rgb(59, 57, 57);
+  }
+  #message {
+    font-size: 30px;
+    color: rgb(59, 57, 57);
+  }
+  #description {
+    font-size: 25px;
+    color: rgb(59, 57, 57);
+    display: inline-block;
+  }
+  .viewgallery {
+    color: #F15A29;
+    border: #F15A29 1px solid;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  .viewgallery:hover {
+    background-color: #F15A29;
+    color: white;
+  }
+  /* Another section */
+.drinks-show {
+    width: 80;
+    margin: auto;
+    padding: 10% 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+  }
+  .drinks-show-images {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    border: white solid 1px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin: 0 0 0 70px;
+  }
+  .drinks-show-text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .drinks-show-heading {
+    margin: 15px 0 15px 0;
+  }
+  #drinks-show-image-one {
+    padding: 20px 0 20px 20px;
+  }
+  #drinks-show-image-two {
+    padding: 20px 20px 20px 0;
+  }
+  #messaging {
+    font-size: 30px;
+    color: rgb(59, 57, 57);
+  }
+  #drinks-description {
+    font-size: 25px;
+    color: rgb(59, 57, 57);
+    display: block;
+  }
+  .viewdrinks {
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
+    color: #F15A29;
+    border: #F15A29 1px solid;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  .viewdrinks:hover {
+    background-color: #F15A29;
+    color: white;
+  }
+  /* Another section */
+.food-slider-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/foodsBg.jpg);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    background-size: cover;
+    height: 599px;
+  }
+  .food-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 60%;
+    background-color: white;
+    margin: auto;
+  }
+  .slider {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    width: 100%;
+    justify-content: center;
+    font-size: large;
+  }
+  #slide-one {
+    flex-grow: 1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  #slide-two {
+    border: 1px solid gray;
+    flex-grow: 1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    background-color: lightgray;
+  }
+  #slide-three {
+    border: 1px solid gray;
+    flex-grow: 1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    background-color: lightgray;
+  }
+  #slide-four {
+    border: 1px solid gray;
+    flex-grow: 1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    background-color: lightgray;
+  }
+  .slider-arrows {
+    color: #F15A29;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 280px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+  }
+  .slider-left-arrow {
+    margin: 0 0 10px 10px;
+  }
+  .slider-right-arrow {
+    margin: 0 10px 10px 0;
+  }
+  .left {
+    border: solid #F15A29;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 0 0 20px 20px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .right {
+    border: solid #F15A29;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 0 0 20px 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  #slider-image-one {
+    width: 100%;
+    height: auto;
+  }
+  #slider-image-two {
+    width: 100%;
+    height: auto;
+  }
+  #slider-image-three {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
